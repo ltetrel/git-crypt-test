@@ -32,3 +32,8 @@ git add .
 git commit
 git push
 ```
+
+6. Now, if you clone the repository, it will be encrypted. To decrypt it, just do:
+```
+git-crypt unlock ~/.ssh/gitcrypt-key
+```
